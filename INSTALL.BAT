@@ -1,7 +1,7 @@
 @echo off
 if not exist "C:\Users\%USERNAME%\Documents\My Games\" mkdir "C:\Users\%USERNAME%\Documents\My Games\"
 if not exist "C:\Users\%USERNAME%\Documents\My Games\Chocolate Doom\" mkdir "C:\Users\%USERNAME%\Documents\My Games\Chocolate Doom\"
-copy "C:\Users\%USERNAME%\AppData\Local\Temp\IXP000.TMP" "C:\Users\%USERNAME%\Documents\My Games\Doom"
+copy "C:\Users\%USERNAME%\AppData\Local\Temp\IXP000.TMP" "C:\Users\%USERNAME%\Documents\My Games\Chocolate Doom"
 if not exist "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Chocolate Doom\" mkdir "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Chocolate Doom\"
 echo Set oWS = WScript.CreateObject("WScript.Shell") > CreateShortcut.vbs
 echo sLinkFile = "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Chocolate Doom\Doom - Single Player.lnk" >> CreateShortcut.vbs
